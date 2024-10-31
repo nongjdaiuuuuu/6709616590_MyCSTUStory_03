@@ -1,0 +1,160 @@
+@font-face {
+    font-family: newfont;
+    src: url(resources/FCSubjectBold.ttf);
+    font-family: thinking;
+    src: url(resources/Thinking.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: newfont;
+}
+
+body {
+    background-image: url(resources/ภาพพื้นหลัง.jpg);
+    background-size: cover;
+}
+
+.container {
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 1rem;
+    background-color: black;
+    position: sticky; 
+    top: 0; 
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+}
+.logo a {
+    font-family: thinking;
+    font-size: 1.6rem;
+    color: white;
+    text-decoration: none;
+    margin: 0 3rem;
+}   
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li {
+    margin: 0 4.5rem;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 27px 15px;
+    
+}
+
+.menu li a:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+    padding: 31px 15px;
+}
+
+.datacon {
+    display: flex;
+    padding: 80px 0;
+}
+
+.datainfo {
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+}
+
+.dataimg img {
+    width: 70%;
+    padding: 40px ;
+}
+
+.datainfo h1 {
+    font-family: thinking;
+    font-size: 80px;
+}
+
+.datainfo p {
+    padding: 25px ;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.personalinfo {
+    text-align: center;
+    padding: 100px;
+}
+
+.personalinfo h2 {
+    font-size: 40px;
+    font-family: thinking;
+}
+
+.personalinfo p {
+    padding: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.clip {
+    text-align: center;
+    padding: 30px ;
+}
+
+.social {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.myjourney {
+    text-align: center;
+    padding: 30px ;
+}
+
+.myjourney h1 {
+    font-family: thinking;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.myjourney h2 {
+    font-family: thinking;
+    text-align: left;
+    padding: 40px;
+    font-size: 25px;
+}
+
+.page2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.datainfo2 {
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+}
+
+.datainfo2 h1 {
+    font-family: thinking;
+    font-size: 80px;
+}
+
+.datainfo2 p {
+    padding: 25px ;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px;
+}
